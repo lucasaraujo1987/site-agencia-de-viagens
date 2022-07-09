@@ -11,6 +11,7 @@
 #fotofundo{
     position: absolute;
     width: 100vw;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
 
 #cabecalho{
@@ -35,7 +36,7 @@
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.433);
     margin-right: 40px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .navegacao > a:hover{
@@ -73,13 +74,30 @@
 
 .pemenu > a{
     color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.433);
     background-color: white;
+    border: 2px solid white;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.433);
-    border-radius: 5px;
+    border-radius: 15px;
+    text-decoration: none;
     padding: 5px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.pemenu > a:hover{
+    color: rgb(0, 170, 255);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.433);
+    background-color: transparent;
+    border: 2px solid rgb(0, 170, 255);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.433);
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+
 .pemenu > a > img{
     margin-right: 30px;
+    border-radius: 10px;
 }
