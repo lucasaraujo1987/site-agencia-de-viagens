@@ -8,3 +8,7 @@
 #fundocabecalho{
     width: 100%;
 }
+
+.navegacao{
+    position: absolute;
+}
