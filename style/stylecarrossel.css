@@ -8,16 +8,16 @@
 .slider{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.433);
     border: 1px solid rgba(0, 0, 0, 0.433);
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 0 auto;
-    width: 960px;
-    height: 540px;
+    width: 640px;
+    height: 360px;
     overflow: hidden;
 }
 
 .slides{
     width: 400%;
-    height: 540px;
+    height: 360px;
     display: flex;
 }
 
@@ -32,13 +32,13 @@
 }
 
 .slide img{
-    border-radius: 5px;
-    width: 960px;
+    border-radius: 10px;
+    width: 640px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 960px;
+    width: 640px;
     margin-top: -55px;
     display: flex;
     justify-content: center;
@@ -86,14 +86,19 @@
 
 .navigation-auto{
     position: absolute;
-    width: 670px;
-    margin-top: 350px;
+    width: 640px;
+    margin-top: 360px;
     display: flex;
     justify-content: center;
 }
 
 .navigation-auto div:not(:last-child){
     margin-right: 15px;
+}
+
+.h1menu{
+    width: 500px;
+    font-size: 50px;
 }
 
 
