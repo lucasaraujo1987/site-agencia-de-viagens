@@ -6,8 +6,17 @@
 }
 
 .slider{
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.433);
-    border: 1px solid rgba(0, 0, 0, 0.433);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.433);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 640px;
+    height: 360px;
+    overflow: hidden;
+}
+
+.slider:hover{
+    border: 2px solid rgb(0, 170, 255);
     border-radius: 10px;
     margin: 0 auto;
     width: 640px;

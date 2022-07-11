@@ -113,6 +113,13 @@
 }
 
 #pacote1 > a > img{
+    border: 2px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.433);
+}
+
+#pacote1 > a > img:hover{
+    border: 2px solid rgb(0, 170, 255);
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
 }
