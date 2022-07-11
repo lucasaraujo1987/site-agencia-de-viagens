@@ -125,13 +125,16 @@
 }
 
 #rodape{
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px ;
     border-top: 2px solid rgba(0, 0, 0, 0.433);
     text-align: center;
 }
 
 #rodape > p{
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 12px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }

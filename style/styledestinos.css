@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#menudestinos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: floralwhite;
+    margin: 50px 0px;
+}
+
+#menudestinos > div > h1{
+    font-size: 80px;
+}
+
+#menudestinos > div > p{
+    font-size: 50px;
+}
