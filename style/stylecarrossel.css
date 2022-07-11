@@ -44,14 +44,6 @@
     justify-content: center;
 }
 
-.manual-btn{
-    border: 2px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
 .manual-btn:not(:last-child){
     margin-right: 15px;
 }
@@ -97,7 +89,7 @@
 }
 
 .h1menu{
-    width: 500px;
+    width: 350px;
     font-size: 50px;
 }
 

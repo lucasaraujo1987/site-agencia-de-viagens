@@ -10,7 +10,7 @@
 
 #fotofundo{
     position: absolute;
-    width: 100vw;
+    width: 100%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
 }
 
