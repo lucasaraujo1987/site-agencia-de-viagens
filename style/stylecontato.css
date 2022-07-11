@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+#menucontato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0px 50px 100px;
+}
+
+.secao1contato{
+    
+}
+
+.secao1contato h2{
+    color: rgb(0, 170, 255);
+    margin-top: 5px;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+}
+
+.tel h6{
+    margin-left: 20px;
+}
+
+.secao1contato h5{
+    color: rgb(0, 170, 255);
+    margin-top: 20px;
+}
+
+.secao1contato p{
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+
+#duvidas{
+    display: flex;
+    flex-direction: column;
+}
+
+#email{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+#texto{
+    width: 400px;
+    height: 150px;
+}
+
+.enviar{
+    margin-top: 20px;
+    background-color: rgb(0, 170, 255);
+    border:rgb(0, 170, 255);
+    color: white;
+}
+
+.enviar:hover{
+    margin-top: 20px;
+    background-color: rgb(69, 193, 255);
+    border:rgb(69, 193, 255);
+    color: white;
+}
