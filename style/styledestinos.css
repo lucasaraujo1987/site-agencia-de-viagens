@@ -15,3 +15,44 @@
 #menudestinos > div > p{
     font-size: 50px;
 }
+
+#destinos{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+}
+
+#destinos > a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 10px;
+    background-color: floralwhite ;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.129);
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid floralwhite;
+}
+
+#destinos > a:hover{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 10px;
+    background-color: floralwhite ;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.129);
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 170, 255);
+    text-decoration: none;
+}
+
+#destinos p{
+    text-decoration: none;
+    color: black;
+    font-size: 40px;
+}
+
+#destinos img{
+    border-radius: 8px;
+}
