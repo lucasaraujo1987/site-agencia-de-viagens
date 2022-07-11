@@ -53,11 +53,11 @@
 #email{
     width: 300px;
     margin-bottom: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433)
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
 }
 
 #texto{
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433)
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
 }
 
 .enviar{
@@ -74,4 +74,5 @@
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
     border:rgb(69, 193, 255);
     color: white;
+    transition: 0.5s;
 }
