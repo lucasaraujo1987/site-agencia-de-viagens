@@ -10,23 +10,19 @@
     border: 2px solid transparent;
     border-radius: 10px;
     margin: 0 auto;
-    width: 640px;
-    height: 360px;
     overflow: hidden;
+    max-width: 800px;
 }
 
 .slider:hover{
     border: 2px solid rgb(0, 170, 255);
     border-radius: 10px;
     margin: 0 auto;
-    width: 640px;
-    height: 360px;
     overflow: hidden;
 }
 
 .slides{
     width: 400%;
-    height: 360px;
     display: flex;
 }
 
@@ -42,12 +38,10 @@
 
 .slide img{
     border-radius: 10px;
-    width: 640px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 640px;
     margin-top: -55px;
     display: flex;
     justify-content: center;
@@ -87,8 +81,6 @@
 
 .navigation-auto{
     position: absolute;
-    width: 640px;
-    margin-top: 360px;
     display: flex;
     justify-content: center;
 }
@@ -99,88 +91,6 @@
 
 .h1menu{
     width: 350px;
-    font-size: 50px;
+    font-size: 4vw;
     margin-right: 100px;
-}
-
-
-@media (max-width: 700px){
-    .slider{
-        margin: 0 auto;
-        width: 480px;
-        height: 270px;
-        overflow: hidden;
-    }
-
-    .slides{
-        width: 400%;
-        height: 270px;
-        display: flex;
-    }
-
-    .slide img{
-        width: 480px;
-        box-shadow: 2px 2px 5px black;
-    }
-
-    .manual-navigation{
-        position: absolute;
-        width: 480px;
-        margin-top: -15px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .navigation-auto{
-        position: absolute;
-        width: 480px;
-        margin-top: 255px;
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media (max-width: 470px){
-    .programacaopadrao{
-        color: #5e97fe;
-        display: flex;
-        justify-content: center;
-        margin: 20px 0px;
-        text-shadow: 2px 2px 5px black;
-        font-size: 16px;
-    }
-
-    .slider{
-        margin: 0 auto;
-        width: 360px;
-        height: 202.5px;
-        overflow: hidden;
-    }
-
-    .slides{
-        width: 400%;
-        height: 202.5px;
-        display: flex;
-    }
-
-    .slide img{
-        width: 360px;
-        box-shadow: 2px 2px 5px black;
-    }
-
-    .manual-navigation{
-        position: absolute;
-        width: 360px;
-        margin-top: 5px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .navigation-auto{
-        position: absolute;
-        width: 360px;
-        margin-top: 208px;
-        display: flex;
-        justify-content: center;
-    }
 }

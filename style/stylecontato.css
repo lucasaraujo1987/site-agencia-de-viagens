@@ -9,12 +9,14 @@
 
 .secao1contato h1{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 3.2vw;
 }
 
 .secao1contato h2{
     color: rgb(0, 170, 255);
     margin-top: 5px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 3vw;
 }
 
 .tel{
@@ -24,7 +26,7 @@
 
 .tel h6{
     margin-left: 20px;
-    font-size: 20px;
+    font-size: 2.2vw;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
 }
 
@@ -32,13 +34,14 @@
     color: rgb(0, 170, 255);
     margin-top: 20px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 2.5vw;
 }
 
 .secao1contato p{
     margin-top: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
-    font-size: 12px;
+    font-size: 1.5vw;
 }
 
 #duvidas{
@@ -48,10 +51,10 @@
 
 #duvidas h1{
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 3vw;
 }
 
 #email{
-    width: 300px;
     margin-bottom: 20px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
 }
