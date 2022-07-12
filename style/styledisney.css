@@ -10,7 +10,8 @@
     justify-content: center;
 }
 
-.imagemdisney img{
+.imagemdisney > img{
+    width: 45vw;
     margin: 5px;
 }
 
@@ -23,16 +24,18 @@
 
 .informacaodisney h1{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.213);
+    font-size: 5vw;
 }
 
 .informacaodisney p{
-    font-size: 20px;
+    font-size: 2.3vw;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.213);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .informacaodisney h3{
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.213);
+    font-size: 2.8vw;
 }
 
 ul{
@@ -40,7 +43,7 @@ ul{
 }
 
 li{
-    font-size: 20px;
+    font-size: 2.2vw;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.213);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -81,6 +84,15 @@ li{
     transition: 0.5s;
 }
 
-.passagem section h4, h5, h2{
+.passagem section h4{
+    font-size: 2.5vw;
+}
+
+.passagem section h5{
+    font-size: 2vw;
+}
+
+.passagem section h2{
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
+    font-size: 3vw;   
 }
