@@ -10,11 +10,15 @@
 }
 
 #menudestinos > div > h1{
-    font-size: 80px;
+    font-size: 7vw;
 }
 
 #menudestinos > div > p{
-    font-size: 50px;
+    font-size: 4vw;
+}
+
+#menudestinos img{
+    width: 26vw;
 }
 
 #destinos{
@@ -51,7 +55,7 @@
 #destinos p{
     text-decoration: none;
     color: black;
-    font-size: 40px;
+    font-size: 3.7vw;
 }
 
 #destinos img{
