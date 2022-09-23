@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+#menudestinos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(207, 255, 255);
+    margin: 50px 0px;
+    padding: 20px 0px;
+    width: 100vw;
+}
+
+#menudestinos > div > h1{
+    font-size: 7vw;
+}
+
+#menudestinos > div > p{
+    font-size: 4vw;
+}
+
+#menudestinos > img{
+    width: 26vw;
+}
+
+.destinos{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 50px 0px;
+}
+
+.destinos > a{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 10px;
+    background-color: rgb(207, 255, 255) ;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.129);
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(207, 255, 255);
+}
+
+.destinos > a:hover{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 10px;
+    background-color: rgb(207, 255, 255) ;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.129);
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 170, 255);
+    text-decoration: none;
+}
+
+.destinos h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 2vw;
+}
+
+.destinos img{
+    border-radius: 8px;
+}
+
+.destinos p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2vw;
+}
+
+.destinos h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vw;
+}
+
+.destinos h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5vw;
+}

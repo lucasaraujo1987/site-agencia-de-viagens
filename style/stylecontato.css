@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+#menucontato{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px 0px 50px 100px;
+}
+
+.secao1contato h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 3.2vw;
+}
+
+.secao1contato h2{
+    color: rgb(0, 170, 255);
+    margin-top: 5px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 3vw;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+}
+
+.tel h6{
+    margin-left: 20px;
+    font-size: 2.2vw;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+}
+
+.secao1contato h5{
+    color: rgb(0, 170, 255);
+    margin-top: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 2.5vw;
+}
+
+.secao1contato p{
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 1.5vw;
+}
+
+#duvidas{
+    display: flex;
+    flex-direction: column;
+}
+
+#duvidas h1{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.433);
+    font-size: 3vw;
+}
+
+#email{
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
+}
+
+#texto{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
+}
+
+.enviar{
+    margin-top: 20px;
+    background-color: rgb(0, 170, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
+    border:rgb(0, 170, 255);
+    color: white;
+}
+
+.enviar:hover{
+    margin-top: 20px;
+    background-color: rgb(69, 193, 255);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.433);
+    border:rgb(69, 193, 255);
+    color: white;
+    transition: 0.5s;
+}
